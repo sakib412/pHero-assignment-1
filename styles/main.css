@@ -1,0 +1,177 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #3E3E3E;
+}
+p{font-size: 1.1em;}
+
+.color-primary{ color: #FFAD5A}
+.color-secondary{color:#ff5959}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+.btn{
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    margin: 1rem 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #ff5959;
+    color: #fff;
+}
+.btn-secondary{
+    margin: 0;
+    background-color: #FFAD5A;
+    color: #fff;
+    margin-left: 1rem;
+    
+}
+.w-50{
+    width: 50%;
+    padding: 2rem;
+}
+
+/* Hero Section */
+.hero-header{
+    font-family: 'Yeseva One', cursive;
+    font-weight: normal;
+    color: #333333;
+    border-left: 0.3rem solid;
+    border-image: linear-gradient(#ff5959,#f86f6f);
+    border-image-slice: 1;
+    font-size: 2.7rem;
+    padding-left: 0.7rem;
+}
+
+#hero-section{
+    min-height: 70vh;
+}
+
+.hero-image{
+    padding: 3rem;
+    width: 75%;
+}
+
+
+
+/* Mission Section */
+#mission-section{
+    margin: 3rem 0;
+}
+.mission-header{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #13103A;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.mission-item{
+    min-height: 50vh;
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+    margin-right: 2rem;
+    width: 33.33%;
+}
+.mission-item-1{background-color: rgba(69, 252, 109, 0.1);}
+.mission-item-2{background-color: rgba(255, 89, 89, 0.1);}
+.mission-item-3{background-color: rgb(255, 244, 214);}
+
+.mission-item__title{color: #000;}
+
+.mission-item__image{ width: 50%}
+
+/* Develop Section */
+#develop-section{ 
+    margin: 5rem 0;
+    background-image: url("../images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: 3% 30%;
+    background-size: 13rem;
+}
+.section-imgbox{
+    width: 42%;
+    height: 70%;
+    padding: 1rem;
+}
+.section__image{width: 88%;}
+.section-textbox{
+    padding-right: 5rem;
+    padding-left: 0;
+    width: 55%;
+}
+.section-title{font-size: 2.5rem;}
+
+/* Community section */
+#community-section{ 
+    margin-bottom: 3rem;
+    background-image: url("../images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: 92% 100%;
+    background-size: 12rem;
+    overflow: visible;
+}
+
+/* Contact Section */
+#contact-section{
+    margin-bottom: 5rem;
+}
+.contact-section-imgbox{
+    width: 50%;
+    height: 100%;
+
+}
+.section-form{
+    padding: 2rem;
+    width: 55%;
+    background-image: linear-gradient(90deg, rgba(131,58,180,0.1) 0%, rgba(252,176,69,0.1) 100%);
+    border-radius: 8px;
+}
+
+.form-item:not(:last-child){ /* apply all except last child */
+    margin-bottom: 2rem;
+}
+.form-item input, 
+.form-item textarea{
+    margin: 0 auto;
+    font-family: inherit;
+    display: block;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.4rem;
+    width: 90%;
+
+}
+
+.form-item input:focus, 
+.form-item textarea:focus{
+    outline: none;
+}
+
+
+/* Footer */
+footer{
+    background-color: #0B0D17;
+    padding: 2rem;
+    margin-bottom: 0;
+}
+.footer-title{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #fff;
+}
+.footer-small-text{
+    color: #D9DBE1;
+    font-size: 0.9em;
+    text-align: center;
+}
